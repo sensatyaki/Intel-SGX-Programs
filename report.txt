@@ -1,0 +1,60 @@
+26000
+	Command being timed: "./app"
+	User time (seconds): 0.00
+	System time (seconds): 0.05
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.06
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5412
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 233
+	Voluntary context switches: 51
+	Involuntary context switches: 5
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+26000
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 88.54    0.041717          42      1005        23 ioctl
+  4.54    0.002141         357         6           munmap
+  2.54    0.001195           5       245           mprotect
+  1.32    0.000621          15        42        18 open
+  1.21    0.000568          11        50           mmap
+  0.37    0.000175          10        17        17 access
+  0.30    0.000141           7        21           read
+  0.29    0.000139           5        30           close
+  0.29    0.000136           6        23           fstat
+  0.07    0.000035           5         7           rt_sigaction
+  0.07    0.000034          17         2           rt_sigprocmask
+  0.07    0.000031           3        10           epoll_ctl
+  0.06    0.000028           9         3           brk
+  0.06    0.000026           9         3         2 connect
+  0.04    0.000019           6         3           write
+  0.04    0.000017          17         1           getrlimit
+  0.03    0.000015          15         1           lstat
+  0.03    0.000012          12         1           set_tid_address
+  0.02    0.000010           3         3           lseek
+  0.02    0.000010          10         1           arch_prctl
+  0.02    0.000009           3         3           socket
+  0.02    0.000009           9         1           set_robust_list
+  0.01    0.000007           7         1           epoll_create
+  0.01    0.000006           6         1           pipe
+  0.01    0.000006           3         2           fcntl
+  0.01    0.000006           6         1           getcwd
+  0.01    0.000003           3         1           gettid
+  0.01    0.000003           1         3           futex
+  0.00    0.000000           0         4         3 stat
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         1           getuid
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.047119                  1493        63 total
